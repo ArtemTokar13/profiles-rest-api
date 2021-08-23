@@ -2,7 +2,7 @@
 set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/ArtemTokar13/profiles-rest-api.git'
-PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api-new'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api-new-1'
 echo "Installing dependencies..."
 apt-get update
 apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
